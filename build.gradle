@@ -1,0 +1,22 @@
+group 'com.heron.lee'
+version '1.0-SNAPSHOT'
+
+// allprojects를 사용하면 맨 상단 프로젝트도 의존성이 생기기때문에 subprojects를 사용
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin: 'application'
+    apply plugin: 'eclipse'
+
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+
+    repositories {
+        mavenCentral()
+    }
+
+    // 여기다 추기하기전에 꼭 공통으로 필요한지 아닌지 생각해보고 작성할것.
+    dependencies { 
+        testCompile('junit:junit:4.12')
+    }
+}

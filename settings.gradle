@@ -1,0 +1,5 @@
+rootProject.name = 'heron.lee'
+include 'test'
+include 'test2'
+include 'test3'
+
