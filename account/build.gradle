@@ -1,0 +1,9 @@
+group 'com.heron.lee'
+version '1.0-SNAPSHOT'
+
+mainClassName = "AccountApplication"
+
+dependencies {
+
+    compile project(':common')
+}

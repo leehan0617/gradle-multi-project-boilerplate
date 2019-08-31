@@ -1,9 +1,0 @@
-group 'com.heron.lee'
-version '1.0-SNAPSHOT'
-
-mainClassName = "HelloTest2"
-
-dependencies {
-    // 같은 모듈 (예: 공통 프로젝트를 참조할 수 있다.)
-    compile project(':test3')
-}

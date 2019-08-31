@@ -1,0 +1,7 @@
+group 'com.heron.lee'
+version '1.0-SNAPSHOT'
+
+mainClassName = "CommonApplication"
+
+dependencies {
+}
